@@ -21,12 +21,17 @@ const Card = ({ movie }) => {
             <source src={movie.thumbnail} type="video/mp4" />
           </video>
           <div className="info-box">
+            <div className="icons">
+              <i className="character play bi bi-caret-right-fill"></i>
+              <i className="character bi bi-plus-lg"></i>
+              <i className="character bi bi-hand-thumbs-up"></i>
+            </div>
             <p>{movie.title}</p>
           </div>
         </>
       )}
     </div>
-  )
+  );
 }
 
 export default Card

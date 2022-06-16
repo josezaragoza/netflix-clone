@@ -44,8 +44,12 @@ const App = () => {
 
   return (
     <>
+      <div className="navbar">
       <NavBar />
+      </div>
+      <div className="hero">
       <HeroSection />
+      </div>
       {genres && (
         <div className="container">
           {Object.values(genres).map((genre) => (

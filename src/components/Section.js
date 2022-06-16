@@ -31,16 +31,16 @@ const Section = ({ genre }) => {
           <div
             className="more-button"
             onClick={() => {
-              setPageState(pageState)
-              fetchData()
+              setPageState(pageState);
+              fetchData();
             }}
           >
-            <i className="fas fa-angle-right"></i>
+            <i class="fi fi-ss-angle-right"></i>
           </div>
         </div>
       )}
     </>
-  )
+  );
 }
 
 export default Section
